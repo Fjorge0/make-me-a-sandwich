@@ -1,7 +1,3 @@
-ifndef VERBOSE
-.SILENT:
-endif
-
 # Here we tell what type of sandwich we would like.
 define SANDWICH
                     _.---._
@@ -30,5 +26,5 @@ sandwich:
 	@echo "$$SANDWICH"
 # Skip two words which aren't meant to do anything
 me a:
-	# Pass
+	@# Pass
 
