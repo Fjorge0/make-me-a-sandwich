@@ -23,7 +23,7 @@ export SANDWICH
 
 # Targets for the sandwich
 sandwich:
-	@echo "$$SANDWICH"
+	@echo -e "$$SANDWICH"
 # Skip two words which aren't meant to do anything
 me a:
 	@# Pass
